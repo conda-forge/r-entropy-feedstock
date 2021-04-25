@@ -3,7 +3,7 @@ About r-entropy
 
 Home: http://strimmerlab.org/software/entropy/
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-entropy-feedstock/blob/master/LICENSE.txt)
 
