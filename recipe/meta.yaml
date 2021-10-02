@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/entropy_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/entropy/entropy_{{ version }}.tar.gz
-  sha256: 0af71dc25ebbd2b03136c44d33359e67811e5d3b262c91791f87a5c890d7103a
+  sha256: 6f5a89f5ce0e90cbed1695b81259326c976e7a8f538157e223ee5f63b54412b8
 
 build:
   merge_build_host: true  # [win]
