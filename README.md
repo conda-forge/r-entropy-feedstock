@@ -1,11 +1,11 @@
-About r-entropy
-===============
+About r-entropy-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-entropy-feedstock/blob/main/LICENSE.txt)
 
 Home: http://strimmerlab.org/software/entropy/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-entropy-feedstock/blob/main/LICENSE.txt)
 
 Summary: This package implements various estimators of entropy, such as the shrinkage estimator by Hausser and Strimmer, the maximum likelihood  and the Millow-Madow estimator, various Bayesian estimators, and the  Chao-Shen estimator.  It also offers an R interface to the NSB estimator. Furthermore, it provides functions for estimating Kullback-Leibler divergence, chi-squared, mutual information, and chi-squared statistic of independence. In addition there are functions for discretizing continuous random variables.
 
