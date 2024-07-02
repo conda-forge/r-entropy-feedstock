@@ -1,6 +1,5 @@
 {% set version = "1.3.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-entropy
@@ -13,8 +12,7 @@ source:
   sha256: 6f5a89f5ce0e90cbed1695b81259326c976e7a8f538157e223ee5f63b54412b8
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
