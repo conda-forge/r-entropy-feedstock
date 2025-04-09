@@ -1,4 +1,4 @@
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/entropy_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/entropy/entropy_{{ version }}.tar.gz
-  sha256: 6f5a89f5ce0e90cbed1695b81259326c976e7a8f538157e223ee5f63b54412b8
+  sha256: 901a2ade8f99b0c45c948cbc2fc792beef7346bc81de33987bb754da12ad76a5
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
